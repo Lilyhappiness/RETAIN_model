@@ -1,4 +1,8 @@
 """Implementation of RETAIN Keras from Edward Choi"""
+""" 
+Lily Li
+Last modified: 2022 01
+"""
 import os
 import argparse
 import numpy as np
