@@ -49,7 +49,7 @@ To process highly sensitive data we need to use a storage system that supports e
 			
 - clone the forked version of retain-keras (anywhere but not under ~/Private)
 
-		petersen@rhino3:$ git clone git@github.com:FredHutch/retain-keras.git
+		petersen@rhino3:$ git clone git@github.com:Lilyhappiness/RETAIN_model.git
 
 	- run the train.sh and evaluate scripts
 
