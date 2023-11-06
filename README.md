@@ -180,6 +180,11 @@ retain_interpretations.py has some arguments:
 * `--path_data`: Path to evaluation data. Default: 'data/data_test.pkl'
 * `--path_dictionary`: Path to dictionary that maps code index to the specific alphanumeric value. If numerics inputs are used they should have indexes num_codes+1 through num_codes+numeric_size, num_codes index is reserved for padding.
 * `--batch_size`: Batch size for prediction (higher values are generally faster). Default: 32
+* `--avg`: Complies avg of features weights across all patients/visits.
+* `--id`: Display IDs of patients being interrpreted.
+* `--fullrun`: Output to the CSV file of all patient results with patient_id, importance_visit, to_event.
+* `--lastday`: Calculate and output features weights across all patients/visits of the last day.
+* `--seperate`: Output features weights separated by target result 0 or 1.
 
 # Data and Target Format
 
